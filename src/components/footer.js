@@ -15,7 +15,7 @@ export default function Footer() {
 
 const Foot = styled.footer `
     background: forestgreen;
-    color: white;
+    color: black;
     text-align: center;
     padding: 3%;
 `

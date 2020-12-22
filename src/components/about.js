@@ -15,14 +15,16 @@ export default function About() {
 }
 
 const AboutSection = styled.section `
-  margin-bottom: 3%;
+  margin: 3% 0;
   border-bottom: 3px dashed black;
   h2 {
     font-size: 3.2rem;
     text-align: center;
+    color: forestgreen;
   }
   p {
-    margin: 1%;
+    margin: 0 6%;
+    padding-bottom: 1%;
   }
 
 `

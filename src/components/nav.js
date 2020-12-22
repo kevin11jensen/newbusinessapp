@@ -25,6 +25,7 @@ justify-content: space-around;
 align-items: center;
 padding: 2%;
 h3 {
+  color: forestgreen;
   font-size: 2.4rem;
   @media ${device.tabletL} {
     font-size: 2rem;
@@ -44,6 +45,7 @@ div {
   display: flex;
   justify-content: space-around;
   a {
+    color: forestgreen;
     font-size: 1.6rem;
     
     @media ${device.tablet} {

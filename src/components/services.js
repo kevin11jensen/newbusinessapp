@@ -10,17 +10,17 @@ export default function Services() {
       <ServicesSection id = 'services'>
         <h2>Services</h2>
 
-        <p>Static One Page Site - includes: navigation, hero, about, contact info, footer
+        <p><span>Static One Page Site</span> - includes: navigation, hero, about, contact info, footer
         </p>
         
-        <p>Functional One Page Site - includes: all of the above plus 1 functional component
+        <p><span>Functional One Page Site</span> - includes: all of the above plus 1 functional component
         </p>
 
-        <p>Functional Multi-Page Site -
+        <p><span>Functional Multi-Page Site</span> -
         all of the above plus multiple components and/or pages
         </p>
-          
-        
+        <br /> 
+        <br />
         <p>All sites include SSL Certificate, SEO optimization, and hosting. We offer solutions to business's problems. Contact us to discuss your specific business needs.</p>
       </ServicesSection>
     </div>
@@ -29,16 +29,20 @@ export default function Services() {
 }
 
 const ServicesSection = styled.div `
-  margin-bottom: 3%;
-  border-bottom: 3px dashed black;
+  margin: 3% 0;
+  
   h2 {
     font-size: 3.2rem;
     text-align: center;
+    color: forestgreen;
   }
 
   p { 
-    margin: 3% 1%;
-    
+    margin: 0 6%;
+    padding-bottom: 1%;
+    span {
+      font-weight: 800;
+    }
   }
 
 `

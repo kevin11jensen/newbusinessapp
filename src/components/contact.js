@@ -29,11 +29,15 @@ export default function Contact() {
 }
 
 const ContactSection = styled.section `
-  margin: 3% 1%;
+  padding: 3% 1%;
+  color: forestgreen;
+  background: black;
   h2 {
     font-size: 3.2rem;
     text-align: center;
+    
   }
+  
   .phone {
     display: flex;
     align-items: center;
@@ -65,6 +69,7 @@ const ContactSection = styled.section `
       padding: 3rem;
     }
   }
+
 `
 
 // h1 {
