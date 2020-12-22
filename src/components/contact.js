@@ -58,9 +58,14 @@ const ContactSection = styled.section `
     @media ${device.mobileL} {
       padding: 3%;
     }
+
     i {
       font-size: 1.6rem;
       margin-right: .5rem;
+    }
+    &:hover {
+      color: lime;
+      scale: 1.2;
     }
   }
   .email {
@@ -78,6 +83,10 @@ const ContactSection = styled.section `
         font-size: 1.6rem;
         margin-right: .5rem;
       }
+      &:hover {
+        color: lime;
+        scale: 1.2;
+      }
     }
     
   }
@@ -88,11 +97,16 @@ const ContactSection = styled.section `
     padding: 1% 1%;
     a {
       color: forestgreen;
+      
       i {
         font-size: 3.6rem;
         padding: 3rem;
         @media ${device.mobileL} {
           font-size: 2.4rem;
+        }
+        &:hover {
+          color: lime;
+          scale: 1.2;
         }
       }
     }
