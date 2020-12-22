@@ -26,6 +26,12 @@ align-items: center;
 padding: 2%;
 h3 {
   font-size: 2.4rem;
+  @media ${device.tabletL} {
+    font-size: 2rem;
+  }
+  @media ${device.tablet} {
+    font-size: 1.6rem;
+  }
   @media ${device.mobileL} {
     font-size: 1.2rem;
   }
@@ -39,6 +45,10 @@ div {
   justify-content: space-around;
   a {
     font-size: 1.6rem;
+    
+    @media ${device.tablet} {
+      font-size: 1.2rem;
+    }
     @media ${device.mobileL} {
       display: none;
     }

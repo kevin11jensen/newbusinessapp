@@ -9,18 +9,18 @@ export default function Contact() {
         <h2>Contact Us</h2>
 
         <div className = 'phone'>
-          <i class="fas fa-phone"></i>
+          <i className = "fas fa-phone"></i>
           <p>555-555-5555</p>
         </div>
         <div className = 'email'>
-          <i class="far fa-envelope-open"></i>
+          <i className="far fa-envelope-open"></i>
 
           <p>newbusiness@gmail.com</p>
         </div>
         <div className = 'social'>
-          <i class="fab fa-instagram-square"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-instagram-square"></i>
+          <i className="fab fa-facebook"></i>
+          <i className="fab fa-twitter"></i>
         </div>
       </ContactSection>
     </div>
