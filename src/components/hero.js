@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import mthood from '../images/mthood.jpg';
 import stjohns from '../images/stjohnsbridge.jpg';
 import vertical from '../images/portlandVertical.jpg';
+import { device } from './device'
+
+
+
 
 
 export default function Hero() {
@@ -24,7 +28,10 @@ const HeroContainer = styled.div  `
 
     img {
         width: 33%;
-        object-fit: cover;
-
+        
+        @media ${device.mobileL} {
+            object-fit: cover;
+            height: 50vh;
+        }
     }
 `
