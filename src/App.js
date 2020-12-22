@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+
 import Navigation from './components/nav';
 import Hero from './components/hero';
 
@@ -25,10 +25,3 @@ export default function App() {
     
   );
 }
-
-const MainContainer = styled.div `
-  font-size: 5rem;
-  color: red;
-  border-bottom: 5px dotted black;
-  font-family: 'Langar', cursive;
-`
