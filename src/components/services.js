@@ -35,22 +35,10 @@ const ServicesSection = styled.div `
   }
 
   p { 
+    margin: 3% 1%;
     
-    @media ${device.mobile} {
-      margin: 3% 1%;
-    }
   }
 
 `
 
 
-// h1 {
-//   font-size: 4.6rem;
-// }
-// h2 {
-//   font-size: 3.2rem;
-//   text-align: center;
-// }
-// h3 {
-//   font-size: 2.4rem;
-// }

@@ -16,6 +16,7 @@ export default function About() {
 
 const AboutSection = styled.section `
   margin-bottom: 3%;
+  border-bottom: 3px dashed black;
   h2 {
     font-size: 3.2rem;
     text-align: center;
