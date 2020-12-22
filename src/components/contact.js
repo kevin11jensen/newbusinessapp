@@ -55,6 +55,9 @@ const ContactSection = styled.section `
     align-items: center;
     justify-content: center;
     padding: 2%;
+    @media ${device.mobileL} {
+      padding: 3%;
+    }
     i {
       font-size: 1.6rem;
       margin-right: .5rem;
@@ -63,6 +66,9 @@ const ContactSection = styled.section `
   .email {
     
     padding: 1%;
+    @media ${device.mobileL} {
+      padding: 2%;
+    }
     a {
       display: flex;
       align-items: center;
