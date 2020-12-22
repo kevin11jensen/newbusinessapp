@@ -27,7 +27,7 @@ padding: 2%;
 h3 {
   font-size: 2.4rem;
   @media ${device.mobileL} {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   @media ${device.mobile} {
     font-size: 1rem;

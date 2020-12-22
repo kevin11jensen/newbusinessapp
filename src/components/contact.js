@@ -7,6 +7,8 @@ export default function Contact() {
     <div>
       <ContactSection id = 'contact'>
         <h2>Contact Us</h2>
+        <p>555-555-5555</p>
+        <p>divinewebdesign@gmail.com</p>
       </ContactSection>
     </div>
     

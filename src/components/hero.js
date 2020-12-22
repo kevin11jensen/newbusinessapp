@@ -24,7 +24,7 @@ const HeroContainer = styled.div  `
 
     img {
         width: 33%;
-        
+        object-fit: cover;
 
     }
 `
